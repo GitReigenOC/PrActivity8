@@ -1,0 +1,29 @@
+h {
+    font-family: Georgia, serif
+}
+h1 { 
+    color: red;
+}
+
+h2 { 
+    color: blue;
+}
+
+h3 { 
+    color: green;
+}
+
+a { 
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #ffb83d;
+    text-decoration: underline;
+    transition: color 0.3s ease
+}
+
+a:visited { 
+    color: #533706;
+}
